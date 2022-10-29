@@ -84,10 +84,10 @@ form{
         display: flex;
         text-align: center;
         .success{
-            @include msgcolor(blue, green, lightgreen)
+            @include msgcolor($fontcolor:blue, $bordercolor:green, $bckcolor:lightgreen)
         }
         .falsh{
-            @include msgcolor(rgb(175, 0, 0), red, lightpink)
+            @include msgcolor($fontcolor:rgb(175, 0, 0), $bordercolor:red, $bckcolor:lightpink)
         }
     }
 
